@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="pref_trnspt_options">
+    <item>@string/pref_trnspt_label_pied</item>
+    <item>@string/pref_trnspt_label_voiture</item>
+    <item>@string/pref_trnspt_label_bike</item>
+</string-array>
+    <string-array name="pref_trnspt_values">
+        <item>@string/pref_trnspt_pied</item>
+        <item>@string/pref_trnspt_voiture</item>
+        <item>@string/pref_trnspt_bike</item>
+    </string-array>
+
+
+
+    <string-array name="pref_type_options">
+        <item>restaurants</item>
+        <item>banques</item>
+        <item>supermarchés</item>
+        <item>bars</item>
+    </string-array>
+
+    <string-array name="pref_type_values">
+        <item>restaurant</item>
+        <item>bank</item>
+        <item>grocery_or_supermarket</item>
+        <item>bar</item>
+    </string-array>
+</resources>

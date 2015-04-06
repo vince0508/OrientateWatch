@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditTextPreference
+        android:title="@string/pref_range_label"
+        android:key="@string/pref_range_key"
+        android:defaultValue="@string/pref_range_default"
+        android:inputType="number"
+        android:singleLine="true" />
+
+    <ListPreference
+        android:title="@string/pref_trnspt_label"
+        android:key="@string/pref_trnspt_key"
+        android:defaultValue="@string/pref_trnspt_pied"
+        android:entryValues="@array/pref_trnspt_values"
+        android:entries="@array/pref_trnspt_options" />
+
+    <ListPreference
+        android:title="@string/type_recherche"
+        android:key="@string/pref_type_key"
+        android:defaultValue="@string/pref_type_default"
+        android:entryValues="@array/pref_type_values"
+        android:entries="@array/pref_type_options" />
+
+
+</PreferenceScreen>
