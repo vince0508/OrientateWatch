@@ -39,11 +39,6 @@ public class MainActivity extends ActionBarActivity{
     LocationManager mLocationManager;
     ForecastFragment forecastFragment = new ForecastFragment();
 
-    Node mNode; // the connected device to send the message to
-    GoogleApiClient mGoogleApiClient;
-    private static final String HELLO_WORLD_WEAR_PATH = "/hello-world-wear";
-    private boolean mResolvingError=false;
-
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -56,10 +51,10 @@ public class MainActivity extends ActionBarActivity{
                     .commit();
         }
 
-        /* On chope notre localisation */
+
         Location myLocation = getLastKnownLocation();
 
-        /* On set tout ça... */
+
         this.setLatitude(myLocation);
         this.setLongitude(myLocation);
 
@@ -133,22 +128,7 @@ public class MainActivity extends ActionBarActivity{
         String range = sharedPrefs.getString(
                 getString(R.string.pref_range_key),
                 getString(R.string.pref_range_default));
-/*
-        // Using the URI scheme for showing a location found on a map.  This super-handy
-        // intent can is detailed in the "Common Intents" page of Android's developer site:
-        // http://developer.android.com/guide/components/intents-common.html#Maps
-        Uri geoLocation = Uri.parse("geo:0,0?").buildUpon()
-                .appendQueryParameter("q", location)
-                .build();
 
-        Intent intent = new Intent(Intent.ACTION_VIEW);
-        intent.setData(geoLocation);
-
-        if (intent.resolveActivity(getPackageManager()) != null) {
-            startActivity(intent);
-        } else {
-            Log.d(LOG_TAG, "Couldn't call " + location + ", no receiving apps installed!");
-        }*/
     }
 
     public void setLatitude(Location location) {

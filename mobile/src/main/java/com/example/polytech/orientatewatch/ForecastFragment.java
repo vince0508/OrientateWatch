@@ -365,7 +365,7 @@ public class ForecastFragment extends Fragment implements GoogleApiClient.Connec
                 }
 
 
-                // Pour récupérer le temps de parcours;
+
                 HttpURLConnection urlConnection = null;
                 BufferedReader reader = null;
                 HttpURLConnection urlConnection2 = null;

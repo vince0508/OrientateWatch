@@ -18,12 +18,45 @@
         <item>banques</item>
         <item>supermarchés</item>
         <item>bars</item>
+        <item>Poste</item>
+        <item>Pharmacie</item>
+        <item>Musée</item>
+        <item>Boite de nuit</item>
+        <item>Cinéma</item>
+        <item>Bibliothéque</item>
+        <item>Boulangerie</item>
+        <item>Parc</item>
+        <item>Fleuriste</item>
+        <item>Hotel de ville</item>
+        <item>Repas à emporter</item>
+        <item>Station service</item>
+        <item>Centre Commercial</item>
+        <item>Hopital</item>
+        <item>Université</item>
+        <item>Parking</item>
     </string-array>
+
 
     <string-array name="pref_type_values">
         <item>restaurant</item>
         <item>bank</item>
         <item>grocery_or_supermarket</item>
         <item>bar</item>
+        <item>post_office</item>
+        <item>pharmacy</item>
+        <item>museum</item>
+        <item>night_club</item>
+        <item>movie_theater</item>
+        <item>library</item>
+        <item>bakery</item>
+        <item>park</item>
+        <item>florist</item>
+        <item>city_hall</item>
+        <item>meal_takeaway</item>
+        <item>gas_station</item>
+        <item>shopping_mall</item>
+        <item>hospital</item>
+        <item>university</item>
+        <item>parking</item>
     </string-array>
 </resources>
